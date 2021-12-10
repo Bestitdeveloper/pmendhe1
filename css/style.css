@@ -43,7 +43,7 @@ body {
   line-height: 24px;
   letter-spacing: 1px;
   height: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 html,
@@ -67,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -170,7 +170,7 @@ fieldset {
 
 .divider:after,
 .divider:before {
-  content: " ";
+  content: ' ';
   width: 43px;
   position: absolute;
   border-bottom: dotted 2px #ffffff;
@@ -212,7 +212,7 @@ fieldset {
 }
 
 .button:after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   -webkit-transition: all 0.3s;
@@ -267,7 +267,7 @@ fieldset {
 
 .preloader:before,
 .preloader:after {
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   position: absolute;
@@ -505,7 +505,7 @@ tr > td:nth-child(2) {
   right: 100%;
   top: 35%;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -764,8 +764,8 @@ ul.portfolio li.active {
 
 .portfolio .item a:before {
   color: #ffffff;
-  content: "\f00e";
-  font-family: "FontAwesome";
+  content: '\f00e';
+  font-family: 'FontAwesome';
   text-align: center;
   color: #ffffff;
   position: absolute;
@@ -1070,7 +1070,7 @@ ul.portfolio li.active {
 
 .social-icon:before,
 .social-icon:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -1778,4 +1778,8 @@ ul.portfolio li.active {
 
 .uipasta-credit a:hover {
   color: #f7639a;
+}
+
+.plus {
+  margin-left: -10px;
 }
