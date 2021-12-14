@@ -36,6 +36,7 @@
 */
 
 /* Global Style */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 body {
   font-size: 12px;
@@ -43,7 +44,7 @@ body {
   line-height: 24px;
   letter-spacing: 1px;
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html,
@@ -67,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -137,9 +138,10 @@ fieldset {
 }
 
 .section-title p {
-  font-weight: 400;
+  font-weight: 500;
   line-height: 25px;
   margin-bottom: 40px;
+  font-size: 14px;
 }
 
 .bg-cover {
@@ -170,7 +172,7 @@ fieldset {
 
 .divider:after,
 .divider:before {
-  content: ' ';
+  content: " ";
   width: 43px;
   position: absolute;
   border-bottom: dotted 2px #ffffff;
@@ -199,7 +201,7 @@ fieldset {
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 20px 60px;
+  padding: 10px 34px;
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -212,7 +214,7 @@ fieldset {
 }
 
 .button:after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   -webkit-transition: all 0.3s;
@@ -267,7 +269,7 @@ fieldset {
 
 .preloader:before,
 .preloader:after {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   position: absolute;
@@ -421,7 +423,7 @@ tr > td:nth-child(2) {
 .navigation-background {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  background: #4c9cef;
+  background: #0096ff;
 }
 
 .navigation-background .logo {
@@ -505,7 +507,7 @@ tr > td:nth-child(2) {
   right: 100%;
   top: 35%;
   border: solid transparent;
-  content: ' ';
+  content: " ";
   height: 0;
   width: 0;
   position: absolute;
@@ -764,8 +766,8 @@ ul.portfolio li.active {
 
 .portfolio .item a:before {
   color: #ffffff;
-  content: '\f00e';
-  font-family: 'FontAwesome';
+  content: "\f00e";
+  font-family: "FontAwesome";
   text-align: center;
   color: #ffffff;
   position: absolute;
@@ -1070,7 +1072,7 @@ ul.portfolio li.active {
 
 .social-icon:before,
 .social-icon:after {
-  content: ' ';
+  content: " ";
   display: table;
 }
 
@@ -1782,4 +1784,76 @@ ul.portfolio li.active {
 
 .plus {
   margin-left: -10px;
+}
+
+.wrapper {
+  margin-top: 150px;
+  padding: 3em 2em;
+  font-size: 18px;
+  /* background: #222; */
+  color: #aaa;
+  text-align: center;
+}
+
+.wrapper h1,
+.wrapper h2 {
+  font-weight: 500;
+  margin: 0.4em 0;
+  font-family: "Oswald", sans-serif;
+}
+.wrapper h1 {
+  font-size: 3.5em;
+}
+.wrapper h2 {
+  color: #fc2e2e;
+  font-size: 2em;
+}
+
+.wrapper .text-fixed {
+  color: #333333;
+}
+
+.profile-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.me-image {
+  width: 330px;
+}
+
+.about-me {
+  /* background: #612b05; */
+  color: #612b05;
+  text-align: justify;
+  padding-top: 40px;
+}
+
+.about-me-image {
+  padding: 50px 0;
+  border: 1px solid #5d2902;
+  background: #5f2905;
+  /* border-radius: 14px; */
+  box-shadow: 0px 0px 7px #f7639a;
+}
+
+.wingsgrow-clients li {
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50px;
+  background: #fff7f7;
+  font-weight: 600;
+}
+
+.wingsgrow-clients li:hover {
+  background-color: #31708f;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 575px) {
+  .wrapper {
+    margin-top: 0;
+  }
 }
